@@ -169,6 +169,58 @@ font-size: 22px;
 font-family: 'BebasNeue400';
 border-radius: 8px; 
 }
+.Featured-bg{
+    background: #39c0b4;
+    margin: 25px 0 45px 0;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'BebasNeue400'; 
+}
+.Featured-bg h2{
+    font-size: 30px;
+    padding: 8px 0 0 35px;
+    letter-spacing: 2px;
+}
+#Featured-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#Featured-container .f-block{
+    width: 33.33%;
+}
+#Featured-container .f-border{
+    box-shadow: 0px -1px 1px 1px black;
+    margin: 27px;
+    text-align: center;
+    padding: 30px 0;
+    text-transform: uppercase;
+    color: #afafaf;
+    font-family: 'BebasNeue400';
+    font-size: 27px;
+    border-bottom: 5px solid #3cc395;
+}
+#Featured-container i{
+    font-style: normal; 
+    margin: 15px;
+}
+#Featured-container h3{
+     font-size: 30px;
+     margin: 15px 0;
+    letter-spacing: 1px;
+}
+#Featured-container button{
+    padding: 12px 10px 8px 10px;
+    background: #3cc395;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'BebasNeue400';
+    font-size: 22px;
+}
+
 
 @media(max-width: 600px){
     #slider{
@@ -178,6 +230,25 @@ border-radius: 8px;
     #slider h2{
         margin: 15px;
 }
+
+
+@media(max-width: 720px){
+#header-top, #header-nav ul{
+    justify-content: center;
+}
+    #search{
+    margin: 15px;
+    }
+#Featured-container .f-block{
+    width: 50%;
+}
+#Featured-container .f-border{
+    margin: 8px;
+}
+.Featured-bg{
+    margin: 15px 0;
+}
+
 
     @media(max-width: 1000px){
         #header-top{
